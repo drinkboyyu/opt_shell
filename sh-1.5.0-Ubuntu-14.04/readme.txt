@@ -1,8 +1,5 @@
-1. Help documentation in the /root/HELP.docx,
-   please download to your local computer, 
-   please open with word software!
-2. The new document to the " http://market.aliyun.com " page download!!
-3. The script /root/sh-1.5.0-centos.zip source image environment installed,
-   /root/sh-1.5.0-centos is the main directory installation image environment¡£
-   
-Use more help and advice please contact qrj@jiagouyun.com
+1 chmod 777 sh-1.5.0-Ubuntu-14.04 -R
+2 cd sh-1.5.0-Ubuntu-14.04
+3 sh install.sh
+
+Use more help and advice please contact swyapp007@gmail.com
