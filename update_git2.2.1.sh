@@ -32,6 +32,7 @@ git_update()
     tar zxvf libiconv-1.14.tar.gz
     cd libiconv-1.14
     ./configure --prefix=/usr/local/libiconv
+    sed -i '1010d' srclib/stdio.h
     make && make install
     echo "libiconv is ok"
     cd  ..
@@ -61,6 +62,8 @@ git_update()
     make install install-doc install-html
     echo "export PATH=$PATH:/usr/local/git/bin:/usr/local/git/libexec/git-core" >> /etc/bashrc
     cd ..
+    mv /usr/bin/git /usr/bin/git.old
+    ln -s /usr/local/git/bin/git /usr/bin/git
     echo "git update success"
     git_new_version=`git version`
     echo "$git_new_version"
