@@ -10,5 +10,7 @@ update_tool  ##升级PHP和mysql的脚本
 vsftpd.sh  ##一件部署vsftp 
 sh-1.5.4  ##阿里云云市场的一键安装包 
 update_git2.2.1.sh  ##升级git客户端至2.2.1版本 
+aview_install.sh    ##安装aview##
+
 
 对上述任何脚本有问题，请邮件swyapp007@gmail.com
